@@ -6,8 +6,8 @@ import (
 	"errors"
 	"time"
 
-	"go.etcd.io/etcd/clientv3"
-	"go.etcd.io/etcd/pkg/transport"
+	"go.etcd.io/etcd/v3/clientv3"
+	"go.etcd.io/etcd/v3/pkg/transport"
 	"google.golang.org/grpc"
 )
 

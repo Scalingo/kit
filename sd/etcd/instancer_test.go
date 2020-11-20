@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 
-	stdetcd "go.etcd.io/etcd/client"
+	stdetcd "go.etcd.io/etcd/v3/client"
 
 	"github.com/go-kit/kit/log"
 	"github.com/go-kit/kit/sd"

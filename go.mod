@@ -49,9 +49,9 @@ require (
 	github.com/sony/gobreaker v0.4.1
 	github.com/streadway/amqp v0.0.0-20190827072141-edfb9018d271
 	github.com/streadway/handy v0.0.0-20190108123426-d5acb3125c2a
-	go.etcd.io/etcd v0.0.0-20191023171146-3cf2f69b5738
+	go.etcd.io/etcd/v3 v3.3.0-rc.0.0.20200826232710-c20cc05fc548
 	go.opencensus.io v0.22.3
-	go.uber.org/zap v1.13.0
+	go.uber.org/zap v1.15.0
 	golang.org/x/sync v0.0.0-20190911185100-cd5d95a43a6e
 	golang.org/x/time v0.0.0-20191024005414-555d28b269f0
 	golang.org/x/tools v0.0.0-20200103221440-774c71fcf114

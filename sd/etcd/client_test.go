@@ -1,13 +1,13 @@
 package etcd
 
 import (
+	"context"
 	"errors"
 	"reflect"
 	"testing"
 	"time"
-	"context"
 
-	etcd "go.etcd.io/etcd/client"
+	etcd "go.etcd.io/etcd/v3/client"
 )
 
 func TestNewClient(t *testing.T) {
